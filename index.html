@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Responsive Cart Page</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">MyStore</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="cart-icon">
+            <img src="cart-icon.png" alt="Cart">
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <!-- Main Cart Container -->
+    <main class="cart-container">
+        <!-- Cart Items Section -->
+        <section class="cart-items">
+            <h2>Your Cart</h2>
+            <div id="cart-items-list">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+        </section>
+
+        <!-- Cart Totals Section -->
+        <aside class="cart-totals">
+            <h2>Cart Totals</h2>
+            <div class="totals">
+                <p>Subtotal: <span id="subtotal">₹0.00</span></p>
+                <p>Total: <span id="total">₹0.00</span></p>
+            </div>
+            <button id="checkout-btn">Proceed to Checkout</button>
+        </aside>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="service-icons">
+            <div>High Quality</div>
+            <div>Warranty Protection</div>
+            <div>Fast Delivery</div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

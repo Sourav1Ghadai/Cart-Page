@@ -1,0 +1,23 @@
+{
+    "original_total_price": 250000,
+    "items": [
+        {
+            "id": 49839206859071,
+            "quantity": 1,
+            "variant_id": 49839206859071,
+            "key": "49839206859071:e32e24073a153fb68fbc44cd5cd43e05",
+            "title": "Asgaard sofa",
+            "price": 25000000,
+            "original_price": 25000000,
+            "presentment_price": 250000,
+            "discounted_price": 20000000,
+            "line_price": 20000000,
+            "total_discount": 5000000,
+            "vendor": "Lnd [ RISHABH ] ",
+            "product_description": "The Asgaard sofa offers unparalleled comfort and style with its sleek design and high-quality materials.",
+            "image": "https://cdn.shopify.com/s/files/1/0883/2188/4479/files/Asgaardsofa3.png?v=1728384481"
+        }
+    ],
+    "currency": "INR",
+    "items_subtotal_price": 25000000
+}
